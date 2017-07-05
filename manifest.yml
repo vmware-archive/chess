@@ -1,0 +1,8 @@
+---
+applications:
+- name: chess
+# host: chess-${random-word}
+  memory: 50M
+  instances: 1
+  maximum_app_disk_in_mb: 3096
+  timeout: 60
