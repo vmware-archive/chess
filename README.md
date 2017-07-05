@@ -8,9 +8,9 @@ This is an easy to use chess program which you can cf push to CF (Cloud Foundry)
 # Instructions for beginners
 (1) Download index.php and manifest.yml from this repository to a new, empty directory on your PC or Mac
 
-(2) Install the cf cli (Cloud Foundry Command Line Interface) on your machine: https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
+(2) Install the CF CLI on your machine: https://docs.cloudfoundry.org/cf-cli/install-go-cli.html
 
-(3) If you do not have a CF account, create one at https://run.pivotal.io
+(3) If you do not have a CF account, create a free account at https://run.pivotal.io
 
 (4) Execute the cf api command to point to your CF installation
 
@@ -26,7 +26,12 @@ This is an easy to use chess program which you can cf push to CF (Cloud Foundry)
 
 (6) Change to the directory where you downloaded chess.php and manifest.yml
 
+    e.g.  c:\Users\me\projects> cd chess
+          c:\Users\me\projects\chess> 
+
 (7) Execute the cf push command to upload the chess.php code, install dependencies, create container, ... (all automatically)
+
+    e.g.  c:\Users\me\projects> cf push
 
 (8) Once the command prompt is returned to you, look for "urls:" line and try it out using a browser on your PC or Mac
 
